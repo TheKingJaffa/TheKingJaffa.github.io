@@ -9,6 +9,7 @@ html {
 	margin-left: -100px;
 }
 .text {
+	margin-top: auto;
 	text-align: center;
 	color: #e6e6e6;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
