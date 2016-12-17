@@ -8,3 +8,8 @@ html {
 	margin-top: -50px;
 	margin-left: -100px;
 }
+.text-center {
+	color: #e6e6e6;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
