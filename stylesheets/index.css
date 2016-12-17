@@ -8,8 +8,6 @@ html {
 	margin-top: -50px;
 	margin-left: -100px;
 }
-.offset {
-	width: 960px;
-	margin: 0 auto;
+.text {
 	color: #e6e6e6 !important;
 }
