@@ -11,7 +11,7 @@ html {
 .text-center {
 	position: fixed; /*or absolute */
 	top: 60%;
-	left: 50%;
+	left: 40%;
 	margin-top: -60px;
 	margin-left: -100px;
 	color: #e6e6e6;
