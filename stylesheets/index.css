@@ -9,11 +9,7 @@ html {
 	margin-left: -100px;
 }
 .text-center {
-	position: fixed; /*or absolute */
-	top: 60%;
-	left: 50%;
-	margin-top: -60px;
-	margin-left: -107.5px;
+	text-align: center;
 	color: #e6e6e6;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 20px;
