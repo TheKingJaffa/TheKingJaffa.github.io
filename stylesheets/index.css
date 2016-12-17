@@ -3,7 +3,7 @@ body {
 	background-color: #ccc;
 	}
 img {
-	display: block;
-	margin: auto;
-	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 6em;
 }
