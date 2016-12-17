@@ -9,9 +9,7 @@ html {
 	margin-left: -100px;
 }
 .text {
-	position: fixed;
-	top: 55%;
-	left: 43%;
+	text-align: center;
 	color: #e6e6e6;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 20px;
