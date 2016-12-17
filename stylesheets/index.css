@@ -1,7 +1,7 @@
 html {
 	background-image: url("/images/background.jpg");
 }
-img.centered {
+.centered {
 	position: fixed;
 	top: 50%;
 	left: 50%;
