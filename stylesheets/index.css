@@ -2,7 +2,7 @@ html {
 	background-image: url("/images/background.jpg");
 }
 img.centered {
-	position: fixed; /*or absolute */
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	margin-top: -50px;
