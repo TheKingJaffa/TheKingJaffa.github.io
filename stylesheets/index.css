@@ -1,6 +1,5 @@
-body {
+html {
 	background-image: url("/images/background.jpg");
-	background-color: #ccc;
 }
 .centered {
 	position: fixed; /*or absolute */
