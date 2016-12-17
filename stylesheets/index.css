@@ -10,8 +10,8 @@ html {
 }
 .text-center {
 	position: fixed; /*or absolute */
-	top: 50%
-	left: 50%
+	top: 50%;
+	left: 50%;
 	margin-top: -50px;
 	margin-left: -100px;
 	color: #e6e6e6;
