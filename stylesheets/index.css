@@ -10,8 +10,8 @@ html {
 }
 .offset {
 	position: fixed;
-	top: 50%;
-	left: 30%;
+	top: auto;
+	left: auto;
 	text-align: justify;
 	color: #e6e6e6 !important;
 }
