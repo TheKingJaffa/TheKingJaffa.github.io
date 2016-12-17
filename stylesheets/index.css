@@ -1,8 +1,8 @@
 body {
 	background-image: url("/images/background.jpg");
 	background-color: #ccc;
-	}
-img {
+}
+p {
 	margin-left: auto;
 	margin-right: auto;
 	width: 6em;
