@@ -2,5 +2,8 @@ body {
 	background-image: url("/images/background.jpg");
 	background-color: #ccc;
 	}
-
-	
+img {
+	display: block;
+	margin: auto;
+	width: 40%;
+}
