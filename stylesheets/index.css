@@ -9,6 +9,8 @@ html {
 	margin-left: -100px;
 }
 .offset {
+	position: relative;
+	text-align: justify;
 	margin: 0 auto;
 	color: #e6e6e6 !important;
 }
