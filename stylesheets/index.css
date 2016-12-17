@@ -1,13 +1,10 @@
 html {
 	background-image: url("/images/background.jpg");
 }
-.centered {
-	position: fixed; /*or absolute */
-	top: 50%;
-	left: 50%;
-	margin-top: -50px;
-	margin-left: -100px;
-}
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 .text-center {
 	text-align: center;
 	color: #e6e6e6;
