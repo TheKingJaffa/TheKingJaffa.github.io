@@ -1,7 +1,6 @@
 function randomPassword(length)
 {
-chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-pass = "";
+chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!\"#$%&'()*+,-./:;<=>?[\]^_`{|}~";
 for(x=0;x<length;x++)
 {
 i = Math.floor(Math.random() * 62);
