@@ -1,7 +1,7 @@
 html {
-	background-image: url("/images/background.jpg");
+background-image: url("/images/background.jpg");
 }
 .text {
-	font-family: Helvetica, Arial, sans-serif;
-	color: #e6e6e6 !important;
+font-family: Helvetica, Arial, sans-serif;
+color: #e6e6e6 !important;
 }
