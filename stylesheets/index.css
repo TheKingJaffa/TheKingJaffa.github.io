@@ -4,9 +4,11 @@ html {
 	background: url("/images/background.jpg"); center center no-repeat;
 }
 
+
 .responsive-container {
     position: relative;
     width: 100%;
+    border: 1px solid black;
 }
 
 .img-container {
