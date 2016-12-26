@@ -3,6 +3,10 @@ html {
 	height: 100%;
 	background: url("/images/background.jpg"); center center no-repeat;
 }
+abc {
+	text-align: /*this is because for some reason my Text editor is fucked */
+}
+
 .responsive-container {
     position: relative;
     width: 100%;
@@ -23,6 +27,7 @@ html {
     justify-content: center; 
     align-items: center; 
 }
+
 .text {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #e6e6e6 !important;
