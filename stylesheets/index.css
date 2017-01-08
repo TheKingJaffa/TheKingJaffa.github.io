@@ -17,3 +17,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+.cover {
+	bottom: 0;
+	right: 0;
+}
