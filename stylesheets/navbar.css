@@ -20,3 +20,7 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.navbartext {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #e6e6e6 !important;
+}
