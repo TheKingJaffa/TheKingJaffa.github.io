@@ -1,17 +1,26 @@
 <!doctype html>
 <html>
+
 <head>
-	<title>&lrm;</title>
-	<script type="text/javascript" src="/javascript/pwgen.js"></script>
-	<link rel="stylesheet" type="text/css" href="/stylesheets/pwgen.css">
+  <title>&lrm;</title>
+  <script type="text/javascript" src="/javascript/pwgen.js"></script>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/pwgen.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/navbar.css">
 </head>
+
 <body class="text"> 
-	<table align = "center" border="1">
+	<ul class="navbartext">
+		<li><a class="active" href="/pwgen ">Password Generator</a>
+		</li>
+		<li><a href="/index">Home</a>
+		</li>
+	</ul>
+	<table align = "center" border="1 ">
 	<tr>
-	<td valign="middle" align="center">
-	<center>Random Password Generator</center>
-	<form name="passform">
-	<p>Length: 
+		<td valign="middle" align="center">
+		<center>Random Password Generator</center>
+		<form name="passform">
+		<p>Length: 
 	<select name="length">
 	<option value="1">01</option>
 	<option value="2">02</option>
@@ -66,7 +75,7 @@
 	</select>
 	</p>
 	<p>	Password: <input name="passbox" type="text" size="50" tabindex="1"></p>
-	<p><input type="button" value="Generate" onClick="javascript:formSubmit()" tabindex="2"> <input type="reset" value="Clear" tabindex="3"></p>
+	<p><input type="button" value="Generate" onClick="javascript:formSubmit()" tabindex="2"> <input type="reset " value="Clear " tabindex="3 "></p>
 	</form>
 	</td>
 	</tr>
