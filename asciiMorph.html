@@ -6,10 +6,10 @@
   <link rel="stylesheet" type="text/css" href="/stylesheets/navbar.css"/>
   <script type="text/javascript" src="/javascript/asciiMorph.js"></script>
   <script>
-  var element = document.querySelector('pre');
-  AsciiMorph(element, {x: 51, y: 28});
-  
-  var asciis = [[
+var element = document.querySelector('pre');
+AsciiMorph(element, {x: 51,y: 28});
+
+var asciis = [[
 "                _ooOoo_",
 "               o8888888o",
 "               88\" . \"88",
@@ -131,20 +131,20 @@
 "          _      _      _",
 "       __(.)< __(.)> __(.)=",
 "       \\___)  \\___)  \\___)  "
- ];
- 
-AsciiMorph.render(asciis[0]);
- 
-var currentIndex = 2;
- 
- setTimeout(function() {
-	AsciiMorph.morph(asciis[1]);
- }, 1000);
+ ]];
 
-setInterval(funtion() {
- AsciiMorph.morph(asciis[currentIndex]);
- currentIndex++;
- currentIndex%= asciis.length;
+AsciiMorph.render(asciis[0]);
+
+var currentIndex = 2;
+
+setTimeout(function() {
+  AsciiMorph.morph(asciis[1]);
+}, 1000);
+
+setInterval(function() {
+  AsciiMorph.morph(asciis[currentIndex]);
+  currentIndex++;
+  currentIndex%= asciis.length;
 }, 3000);
 </script>
 </head>
