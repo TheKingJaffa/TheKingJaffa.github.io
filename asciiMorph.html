@@ -2,6 +2,8 @@
 <html>
 <head>
 <title>&lrm;</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/index.css"/>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/navbar.css"/>
   <script type="text/javascript" src="/javascript/asciiMorph.js"></script>
   <script>
   var element = document.querySelector('pre');
@@ -144,10 +146,18 @@ setInterval(funtion() {
  currentIndex++;
  currentIndex%= asciis.length;
 }, 3000);
-</style>
+</script>
 </head>
 <body>
-<pre class="morph">
-</pre>
+  <ul class="navbartext">
+	<li><a class="active" href="/index">Home</a>
+    <li><a href="/pwgen">Password Generator</a>
+    </li>
+    <li><a href="http://thejaffaking.imgur.com" target="_blank">Imgur</a>
+    </li>
+  </ul>
+  <pre class="morph">
+  </pre>
+  <footer> asciiMorph ownership rights go to <a href="http://tholman.com"> Tim Holman.</a></footer> 
 </body>
 </html>
