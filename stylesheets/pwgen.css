@@ -1,6 +1,9 @@
 html {
 	background-image: url("/TWFkZUJ5VGhlS2luZ0phZmZh/Wallpaper.jpg");
 }
+a:link {
+	color: #00ffee;
+}
 .text {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #e6e6e6 !important;
