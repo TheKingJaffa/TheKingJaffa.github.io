@@ -15,6 +15,5 @@ html, body {
 .Animation {
 	height: 50px;
 	width: 50px;
-	border-width: 2px;
-	border-color: #fff;
+	border: 2px solid #fff;
 }
